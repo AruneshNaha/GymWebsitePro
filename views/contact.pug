@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+    style
+        include ../static/stylecontact.css
+    link(rel='stylesheet', href='/static/stylecontactphone.css', media='screen and (max-device-width: 1236px)')
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <div>
+                <img src="/static/logo3.png" alt="" id="logo">
+            </div>
+            <div id="lists">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Class Info</a></li>
+                <li><a href="/contact">Contact us</a></li>
+            </div>
+        </ul>
+    </nav>
+    <section id="contact">
+        <h1>Contact Us</h1>
+            <div id="Forms">
+                <form action="/contact", method="post">
+                    <input type="text" placeholder="Enter your name" name="name">
+                    <input type="text" placeholder="Enter your phone number" name="phone">
+                    <input type="text" placeholder="Enter your email id" name="email">
+                    <input type="text" placeholder="Enter your address" name="address">
+                    <textarea name="concern" id="fdbck" cols="30" rows="10" placeholder="Enter your concern"></textarea>
+                    <input type="submit" value="Submit" id="SBMT">
+                </form>
+            </div>
+    </section>
+    <section id="footer">Copyright &copy; 2019 citygymbodybuilder.com | Naha developers | All rights reserved!</section>
+    </div>
+</body>
+</html>

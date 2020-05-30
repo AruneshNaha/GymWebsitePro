@@ -1,0 +1,32 @@
+h1{
+    margin-top: 30px;
+}
+
+#navbar ul{
+    flex-direction: column;
+}
+
+#navbar ul li {
+    padding: 0px 23px;
+}
+
+#navbar li a {
+    font-size: 1rem;
+    text-align: center;
+}
+
+#logo {
+    height: 80px;
+}
+
+#navbar ul::before{
+    height: 155%;
+}
+
+input,textarea{
+    width: 95%;
+}
+
+#SBMT{
+    width: 30%;
+}

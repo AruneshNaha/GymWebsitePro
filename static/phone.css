@@ -1,0 +1,70 @@
+.Cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+#navbar ul{
+    flex-direction: column;
+}
+
+#navbar ul li {
+    padding: 0px 23px;
+}
+
+#navbar li a {
+    font-size: 1rem;
+    text-align: center;
+}
+
+#logo {
+    height: 80px;
+}
+
+#navbar ul::before{
+    height: 155%;
+}
+
+#introsection div {
+    padding: 10px;
+    font-size: 39px;
+    text-align: center;
+}
+
+#introsection{
+    padding-bottom: 0px;
+}
+
+#missionsection {
+    height: 930px;
+}
+
+#Info img {
+    height: 137px;
+    width: 131px;
+    margin-left: 0px;
+}
+
+#sponsorlogos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#sponsorlogos img {
+    margin: 15px;
+    height: 64px;
+}
+
+#sponsorsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgb(59, 42, 42);
+}
+
+#footer{
+    font-size: 13px;
+}
